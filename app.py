@@ -14,6 +14,7 @@ from routes import blog
 app = FastAPI()
 
 origins = [
+    'https://personal-blog-frontend-react.herokuapp.com/'
     'http://localhost:3000',
 ]
 
